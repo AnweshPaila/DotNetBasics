@@ -9,7 +9,13 @@ namespace Variables
     class Program
     {
         static void Main(string[] args)
-        {   
+        {
+            //camelCase - getDataFromBackend (){
+            //}
+
+            //PascalCase - GetDataFromBackend() {
+            // }
+
             //Primitive Data Types
             //Example 1
             //byte number;
@@ -20,13 +26,12 @@ namespace Variables
             int count = 10;
 
             //compilation error - default data type is double
-            //float totalPrice = 20.95; 
+            //double doublevariable = 1.2d;
+            float totalPrice = 20.95f; 
 
 
-            float totalPrice = 20.95f;
+            //float totalPrice = 20.95f;
             char character = 'A';
-
-
 
             string firstName = "Anwesh";
             bool isWorking = false;
@@ -37,6 +42,7 @@ namespace Variables
             Console.WriteLine(character);
             Console.WriteLine(firstName);
             Console.WriteLine(isWorking);
+            
 
             var newNumber = 2; //show data type by hovering on variable
             var newCount = 10;
@@ -53,20 +59,17 @@ namespace Variables
             Console.WriteLine(newFirstName);
             Console.WriteLine(newIsWorking);
 
-            //Min and Max value for primitive data types
+
+            ////Min and Max value for primitive data types
             Console.WriteLine("Min value - {0}, Max value - {1}", byte.MinValue, byte.MaxValue);
             Console.WriteLine("Min value - {0}, Max value - {1}", int.MinValue, int.MaxValue);
             Console.WriteLine("Min value - {0}, Max value - {1}", float.MinValue, float.MaxValue);
-            Console.WriteLine("Min value - {0}, Max value - {1}", char.MinValue, char.MaxValue);
-            Console.WriteLine("Min value - {0}, Max value - {1}", byte.MinValue, byte.MaxValue);
-            Console.WriteLine("Min value - {0}, Max value - {1}", byte.MinValue, byte.MaxValue);
-            Console.WriteLine("Min value - {0}, Max value - {1}", byte.MinValue, byte.MaxValue);
-            Console.WriteLine("Min value - {0}, Max value - {1}", byte.MinValue, byte.MaxValue);
+            Console.ReadLine();
 
-            const float Pi = 3.14f;
-            // Pi = 1; // shows error if you re-assign a constant
+            //const float Pi = 3.14f;
+            //Pi = 1; // shows error if you re-assign a constant
 
-            Console.WriteLine(Pi);
+            //Console.WriteLine(Pi);
         }
     }
 }
