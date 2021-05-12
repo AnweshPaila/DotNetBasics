@@ -26,8 +26,8 @@ namespace TypeConversions
             byte b2 = (byte)i2; //telling the compiler to manually convert using data type
 
             //Example 2
-            float f1 = 1.0f;
-            int i3 = (int)f1;
+            float f1 = 1.2f;
+            int i3 = (int)f1;   
             int i4 = (int)f;
 
 

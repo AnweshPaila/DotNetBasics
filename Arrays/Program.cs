@@ -21,6 +21,7 @@ namespace Arrays
 
             // Declaring Arrays
             // Intializing Arrays
+            // datatype[] arrayName = new dataType[size];
             int[] numbers = new int[3];
 
             // Accessing array elements
@@ -44,6 +45,7 @@ namespace Arrays
             Console.WriteLine(names[0]);
             Console.WriteLine(names[1]);
             Console.WriteLine(names[2]);
+            Console.ReadLine();
         }
     }
 }

@@ -33,6 +33,8 @@ namespace IfElse
             //      .....
             // }
 
+            hour = 15;
+
             if (hour > 0 && hour < 12)
             {
                 Console.WriteLine("It's morning");
@@ -41,6 +43,8 @@ namespace IfElse
             {
                 Console.WriteLine("It's Night");
             }
+
+            Console.ReadLine();
         }
     }
 }

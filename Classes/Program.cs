@@ -49,6 +49,7 @@ namespace Classes
 
             var subtractionResult = Calculator2.sub(2, 1);
             Console.WriteLine(subtractionResult);
+            Console.ReadLine();
         }
     }
 }

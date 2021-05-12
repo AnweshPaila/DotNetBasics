@@ -15,8 +15,8 @@ namespace Operators
             //add           +               a + b
             //subtract      -               a - b
             //multiply      *               a * b
-            //Divide        /               a / b
-            //Remainder     %               a % b
+            //Divide        /               a / b   - Dividend
+            //Remainder     %               a % b   - Remainder
             //Increment     ++              a = a + 1 (or) a += 1
             //Decrement     --              a = a - 1 (or) a -= 1
 
@@ -25,9 +25,9 @@ namespace Operators
             var c = 1;
 
             Console.WriteLine("---------Arthimetic Operator------------");
-            Console.WriteLine(a + b);
-            Console.WriteLine(a - b);
-            Console.WriteLine(a * b);
+            Console.WriteLine(a + b);   //9
+            Console.WriteLine(a - b);   //3
+            Console.WriteLine(a * b);   //27
             Console.WriteLine(a / b);
             Console.WriteLine(a % b);
 
@@ -38,6 +38,9 @@ namespace Operators
             // Operator Precedence
 
             // Example 1 - Highest precedence in below expression is *
+             //()
+             ///or %
+             // *
             Console.WriteLine( a + b * c);
             // Execution, since * has the highest priority first b * c will be calcultated
             // and then the result will be added to a variable
@@ -73,6 +76,16 @@ namespace Operators
             //or             ||              a || b
             //Not             !               !a
 
+            // 1 && 1 is 1
+            // - T && T - T
+            // - F && T - F
+            // - T && F - F
+
+            // 0 || 0 is 0
+            // - F || F - F
+            // - T || F - T
+            // - F || T - T
+
             a = 1;
             b = 2;
             c = 3;
@@ -80,7 +93,7 @@ namespace Operators
             Console.WriteLine("---------Logical Operator------------");
 
             Console.WriteLine(c > b && c > a);  // T && T => T
-            Console.WriteLine(c > b && c == a); // T && F => T
+            Console.WriteLine(c > b && c == a); // T && F => F
             Console.WriteLine(c > b || c > a);  // T || T => T
             Console.WriteLine(c < b || c < a);  // F || F => F
 
@@ -91,6 +104,7 @@ namespace Operators
             var result = c > b ? a : b;    // if the value of c is greater than b, then a value will be stored in result or else b will be stored
 
             Console.WriteLine(result);
+            Console.ReadLine();
             // Comments in .NET
 
             // An Example of Single Line Comment

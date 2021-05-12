@@ -40,6 +40,7 @@ namespace NestedIfAndSwitch
 
 
             Console.WriteLine("----------Below is the output of using switch -------------");
+            season = Season.Summer;
 
             switch (season)
             {
@@ -50,7 +51,7 @@ namespace NestedIfAndSwitch
                     Console.WriteLine("Winter season");
                     break;
                 case Season.Summer:
-                    Console.WriteLine("Winter season");
+                    Console.WriteLine("Summer season");
                     break;
                 default:
                     break;
