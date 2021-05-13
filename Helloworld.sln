@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedIfAndSwitch", "Nested
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{221ABB9B-4D85-4713-95DA-373B0D717057}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypesOfArrays", "TypesOfArrays\TypesOfArrays.csproj", "{A6C3603E-0346-4D08-8017-F109470BC434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{3FC67CAE-F3CE-42F8-9E50-E1DC26A1476A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{221ABB9B-4D85-4713-95DA-373B0D717057}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{221ABB9B-4D85-4713-95DA-373B0D717057}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{221ABB9B-4D85-4713-95DA-373B0D717057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C3603E-0346-4D08-8017-F109470BC434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C3603E-0346-4D08-8017-F109470BC434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C3603E-0346-4D08-8017-F109470BC434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C3603E-0346-4D08-8017-F109470BC434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC67CAE-F3CE-42F8-9E50-E1DC26A1476A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC67CAE-F3CE-42F8-9E50-E1DC26A1476A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC67CAE-F3CE-42F8-9E50-E1DC26A1476A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC67CAE-F3CE-42F8-9E50-E1DC26A1476A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
