@@ -11,12 +11,12 @@ namespace TypesOfArrays
         static void Main(string[] args)
         {
             //Single Dimensional Array
-            //Syntax : datatype variablename = new datatype[sizeofarray];
+            //Syntax : datatype[] variablename = new datatype[sizeofarray];
             //Eg : var numbers = new int[size];
 
             //Mutli Dimension Array 
-            //Syntax : datatype variablename = new datatype[rowSize, colSize];
-            //Eg: var matrix = new int[3,5];
+            //Syntax : datatype[] variablename = new datatype[rowSize, colSize];
+            //Eg: var matrix = new int[3,5]; // int[] matrix = new int[3,5];
             //Eg: var matrix = new int[3,5]
             //{
             //  {1,2,3,4,5},
@@ -44,7 +44,7 @@ namespace TypesOfArrays
 
             Console.WriteLine("Multi Dimensonal Array Output");
 
-            var jaggedArray = new int[3][];
+            var jaggedArray = new int[3][]; //int[] jaggedArray = new int[3][];
             jaggedArray[0] = new int[3] { 1, 2, 3 };
             jaggedArray[1] = new int[4] { 1, 2, 3, 4 };
             jaggedArray[2] = new int[2] { 1, 2 };
@@ -95,15 +95,15 @@ namespace TypesOfArrays
 
             //Length - returns the size of the array
 
-            Console.WriteLine("Length of numbers array is : ", numbers.Length);
+            Console.WriteLine("Length of numbers array is {0} : ", numbers.Length);
 
             //IndexOf() - to find position of the element in the array
 
             int index = Array.IndexOf(numbers, 9);
-            Console.WriteLine("Index of 9 is : ", index);
+            Console.WriteLine("Index of 9 is {0}: ", index);
 
             //Clear()
-            Array.Clear(numbers, 0, 2);
+            Array.Clear(numbers, 0,2);
 
             Console.WriteLine("Effect of Clear() method");
             foreach (var item in numbers)

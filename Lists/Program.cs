@@ -53,11 +53,11 @@ namespace Lists
 
             int index = numbers.IndexOf(2);
             Console.WriteLine("Effect of IndexOf()");
-            Console.WriteLine("index of 2 is :", index);
+            Console.WriteLine("index of 2 is {0}", index);
 
             bool isElementExists = numbers.Contains(7);
             Console.WriteLine("Effect of Contains()");
-            Console.WriteLine("Is Element 7 exists within the list: ", isElementExists);
+            Console.WriteLine("Is Element 7 exists within the list {0} ", isElementExists);
 
             Console.WriteLine("Effect of Count");
             Console.WriteLine("Size/ Count of numbers list is: ", numbers.Count);
