@@ -21,6 +21,7 @@ namespace Methods
             // method name
             // number and type of parameters
 
+
             /* public class Point
              * {
              *      public void Move(int x, int y)
@@ -44,7 +45,7 @@ namespace Methods
              * {
              *      public void Add(int x1, int x2);
              *      public void Add(int x1, int x2, int x3);
-             *      public void Add(int x1, int x2, int x3, int x4);
+             *      public void Add(params );
              * }
              */
 

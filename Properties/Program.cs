@@ -38,6 +38,7 @@ namespace Properties
             p.firstName = "Anwesh";
 
             Console.WriteLine(p.firstName);
+            Console.ReadLine();
         }
     }
 }

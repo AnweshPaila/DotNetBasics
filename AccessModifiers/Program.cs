@@ -32,6 +32,7 @@ namespace AccessModifiers
             p.setName("Anwesh");
             Console.WriteLine(p.getName());
 
+            Console.ReadLine();
             
         }
     }
