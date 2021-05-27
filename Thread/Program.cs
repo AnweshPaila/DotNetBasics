@@ -10,27 +10,27 @@ namespace Thread
     {
 
         // Static method for thread a
-        public static void thread1()
+        public static void method1()
         {
-            for (int z = 0; z < 5; z++)
+            for (int i = 0; i < 100; i++)
             {
-                if (z == 3)
+                if (i == 3)
                 {
                     Console.WriteLine("Performing the Database Operation Started");
                     //Sleep for 10 seconds
                     Task.Delay(10000);
                     Console.WriteLine("Performing the Database Operation Completed");
                 }
-                Console.WriteLine(z);
+                Console.WriteLine(i);
             }
         }
 
         // static method for thread b
-        public static void thread2()
+        public static void method2()
         {
-            for (int z = 0; z < 5; z++)
+            for (int i = 0; i < 25; i++)
             {
-                Console.WriteLine(z);
+                Console.WriteLine(i);
             }
         }
     }
@@ -62,10 +62,10 @@ namespace Thread
             /* All the threading related classes in C# belong to the System.Threading namespace
              */
 
-            ExThread.thread1();
-            ExThread.thread2();
+            ExThread.method1();
+            ExThread.method2();
 
-            // Creating and initializing threads
+            // Creating and initialiiing threads
             // Thread a = new Thread(ExThread.thread1);
             // Thread b = new Thread(ExThread.thread2);
             // a.Start();
