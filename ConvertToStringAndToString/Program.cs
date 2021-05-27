@@ -17,7 +17,7 @@ namespace ConvertToStringAndToString
              * The difference is Convert.ToString() method handles null whereas the ToString() doesn’t handle null in C#.
              */
             string name = null;
-            name.ToString();        // error
+            //name.ToString();        // error
             Convert.ToString(name); // no error
 
             Console.ReadLine();

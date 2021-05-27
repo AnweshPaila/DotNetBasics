@@ -27,6 +27,7 @@ namespace ListComplexTypeSorting
             {
                 return 0;
             }
+            //return this.Salary > newEmployee.Salary ? 1 : (this.Salary < newEmployee.Salary ? -1 : 0); 
         }
     }
 
