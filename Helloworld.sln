@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQL_DDL_DML", "SQL_DDL_DML\SQL_DDL_DML.csproj", "{D886F036-257A-4189-AB00-62D406389F01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{B0196FEC-AD90-411C-8157-CB9C1FC63804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{D886F036-257A-4189-AB00-62D406389F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D886F036-257A-4189-AB00-62D406389F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D886F036-257A-4189-AB00-62D406389F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0196FEC-AD90-411C-8157-CB9C1FC63804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0196FEC-AD90-411C-8157-CB9C1FC63804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0196FEC-AD90-411C-8157-CB9C1FC63804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0196FEC-AD90-411C-8157-CB9C1FC63804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
