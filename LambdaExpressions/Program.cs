@@ -32,6 +32,11 @@ namespace LambdaExpressions
             // x -> ....   // with one args
             // (x1, x2) -> .... // with multiple args
 
+            // number => number * number;
+            // () => {}
+            // x => {}
+            // (x1, x2, x3)
+
             // Example 1
             Func<int, int> squareLambda = number => number * number;
             Console.WriteLine(squareLambda(5));
