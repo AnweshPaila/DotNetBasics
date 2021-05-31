@@ -71,6 +71,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread", "Thread\Thread.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{4A16EAA4-7319-4308-8AF9-74E922E80F57}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{9F23152F-067C-4332-89C6-7F766C89EF18}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\DDL_DML_Commands.sql = ..\..\..\Desktop\DDL_DML_Commands.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
